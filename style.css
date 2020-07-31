@@ -1,0 +1,200 @@
+
+.ContainterNav
+{
+  display: flex;
+}
+.navbar-nav
+{
+  flex-basis: 100%;
+}
+.nav-item
+{
+text-align: center;
+  flex-grow: 1;
+}
+.Container
+{
+  display: flex;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.Container1
+{
+  margin-top: 12px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-content: center;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Container2
+{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  align-content: center;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Card
+{
+  margin-right: 100px;
+}
+.Container1-item
+{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+}
+.Container3
+{
+  background-image: url(https://i.imgur.com/pZb6Sso.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+.Container3-Header
+{
+  text-align: center;
+  flex-basis: 100%;
+  color: white;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.Container3-item
+{
+  color: white;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 17px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  max-width: 300px;
+  flex-grow: 1;
+}
+.Container3-item1
+{
+  color: white;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 17px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  max-width: 300px;
+  flex-grow: 1;
+}
+.Continer3-Empty
+{
+  flex-grow: 2;
+}
+.carousel-item img
+{
+  min-width: 1500px;
+  max-height: 500px;
+}
+.p-2
+{
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.Form-Container
+{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.form-row
+{
+  max-width: 500px;
+  margin-right: 50px;
+}
+.button
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+.col
+{
+  margin-right: 50px;
+  max-width: 500px;
+}
+.col1
+{
+  margin-right: 50px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  flex-basis: 100%;
+}
+.map-container-2{
+overflow:hidden;
+padding-bottom:56.25%;
+height:0;
+}
+.map-container-2 iframe
+{
+left:0;
+top:0;
+min-height:500px;
+max-width:500px;
+}
+@media screen and (max-width:568px)
+{
+  .form-row
+  {
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .Container2
+  {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Container3
+  {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 750px;
+    margin-bottom: 85px;
+  }
+  .Continer3-item
+  {
+    font-size: 10px;
+  }
+  .carousel-item img
+  {
+    align-items: center;
+    max-width: 300px;
+  }
+  .carousel-inner
+  {
+    align-content: center;
+    margin-left: 50px;
+  }
+  .p-2
+  {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .fixed-bottom
+  {
+    position: initial;
+  }
+  .map-container-2 iframe
+  {
+    margin-bottom: 100px;
+  }
+}
